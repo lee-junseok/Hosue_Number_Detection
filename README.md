@@ -31,7 +31,7 @@ Comes in two formats:
 2. MNIST-like 32-by-32 images centered around a single character (many of the images do contain some distractors at the sides).
 
 
-- Format 1: Full Numbers: [train.tar.gz](#http://ufldl.stanford.edu/housenumbers/train.tar.gz), [test.tar.gz]#http://ufldl.stanford.edu/housenumbers/test.tar.gz , [extra.tar.gz](#http://ufldl.stanford.edu/housenumbers/extra.tar.gz) (Note: for non-commercial use only)
+- Format 1: Full Numbers: [train.tar.gz](#http://ufldl.stanford.edu/housenumbers/train.tar.gz), [test.tar.gz](#http://ufldl.stanford.edu/housenumbers/test.tar.gz) , [extra.tar.gz](#http://ufldl.stanford.edu/housenumbers/extra.tar.gz) (Note: for non-commercial use only)
 
 These are the original, variable-resolution, color house-number images with character level bounding boxes, as shown in the examples images above. (The blue bounding boxes here are just for illustration purposes. The bounding box information are stored in digitStruct.mat instead of drawn directly on the images in the dataset.) Each tar.gz file contains the orignal images in png format, together with a digitStruct.mat file, which can be loaded using Matlab. The digitStruct.mat file contains a struct called digitStruct with the same length as the number of original images. Each element in digitStruct has the following fields: name which is a string containing the filename of the corresponding image. bbox which is a struct array that contains the position, size and label of each digit bounding box in the image. Eg: digitStruct(300).bbox(2).height gives height of the 2nd digit bounding box in the 300th image.
 
