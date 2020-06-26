@@ -1,15 +1,16 @@
 # House Number Detection
 Using a CNN Keras Sequential Model, built a House Number Detection.
 
-First the original images are split into clopped images of each digits based on character level bounding boxes.
+- First the original images are split into clopped images of each digits based on character level bounding boxes.
 
-This preprocessing introduces some distracting digits to the sides of the digit of interest.
+- This preprocessing introduces some distracting digits to the sides of the digit of interest.
 
-Distracting digits are blurred by gaussian blurring on each side (1/4 width on each left/right side).
+- Distracting digits are blurred by gaussian blurring on each side (1/4 width on each left/right side).
 
-Detailed EDA, Preprocessing, Evaluation and Error Analysis in House_Digit_Detection.ipynb.
+- Detailed EDA, Preprocessing, Evaluation and Error Analysis in House_Digit_Detection.ipynb.
 
 For training, run
+
 '''
 python house_dd.py
 '''
