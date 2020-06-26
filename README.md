@@ -11,9 +11,9 @@ Using a CNN Keras Sequential Model, built a House Number Detection.
 
 For training, run
 
-'''
+```
 python house_dd.py
-'''
+```
 
 
 ## The Street View House Numbers (SVHN) Dataset
