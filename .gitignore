@@ -1,0 +1,10 @@
+#files
+**.mat
+trainHistoryDict
+**.tar.gz
+**.tar
+**/Untitled*
+.ipynb_checkpoints/
+tictactoc.py
+test/
+keras_model_save
